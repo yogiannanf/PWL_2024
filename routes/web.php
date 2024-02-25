@@ -17,9 +17,9 @@ use App\Http\Controllers\ArticleController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('Selamat Datang');
-// });
+Route::get('/', function () {
+    return view('Selamat Datang');
+});
 
 // Route::get('/hello', function () {
 //     return 'Hello World';
